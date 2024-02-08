@@ -7,6 +7,7 @@ public class AlarmClock{
 
     public AlarmClock() {
         frame = new JFrame("알람 시계");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
 }
